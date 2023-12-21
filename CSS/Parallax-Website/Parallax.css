@@ -24,7 +24,7 @@
     height:100%;
     width:100%; 
     z-index: -1;
-    /* adjust aspect ratio of imaege */
+    /* adjust aspect ratio of image  */
     object-fit: cover;
 }
 
@@ -98,4 +98,5 @@ h2{
     color:black;
     transform: translateX(-50%) translateY(-50%);
 }
+
 
