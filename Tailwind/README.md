@@ -10,7 +10,6 @@
 5. create a file postcss.config.js
 <br>
 6. add this to that file.
-<br>
 <pre>
     module.exports = {
     plugins: {
@@ -19,7 +18,6 @@
     }
     }
 </pre>
-<br>
 7. Add path to tailwind.config.js
 or just copy this in tailwind.config.js
 <br>
@@ -33,16 +31,15 @@ or just copy this in tailwind.config.js
     plugins: [],
     }
 </pre>
-<br>
 8. In package.json -> scripts -> remove test and add "start": "vite"
 <br>
 9. create main.css
 <br>
 10. add this :
-<code>
+<pre>
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
-</code>
+</pre>
 <br>
 11.link main.css to .html 
