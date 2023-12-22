@@ -1,6 +1,7 @@
 <h1>How to install Tailwind</h1>
-<p>1. npm inti</p>
-<p>2. npm i vite</p>
+1. npm init
+<br>
+2. npm i vite
 <br>
 3. npm install -D tailwindcss postcss autoprefixer\
 <br>
@@ -38,7 +39,10 @@ or just copy this in tailwind.config.js
 9. create main.css
 <br>
 10. add this :
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+<code>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+</code>
+<br>
 11.link main.css to .html 
