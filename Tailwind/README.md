@@ -41,5 +41,4 @@ or just copy this in tailwind.config.js
     @tailwind components;
     @tailwind utilities;
 </pre>
-<br>
 11.link main.css to .html 
